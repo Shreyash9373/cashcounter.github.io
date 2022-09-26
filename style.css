@@ -1,0 +1,577 @@
+body{
+    background-color: rgb(31, 182, 228);
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.container form{
+    float: right;
+    margin-top: 147px;
+    margin-left: 20px;
+}
+.note{
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+}
+.mult{
+    height: 50px;
+    width: 30px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+  
+}
+ ul{
+    list-style: none;
+}
+.container p{
+    display: inline;
+}
+.para{
+    margin: 10px;
+}
+#navbar h1{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+#totalrs{
+    margin: 20px;
+}
+#totalnotes{
+    margin: 20px;
+}
+#totalrupeesinwords{
+    width: 300px;
+    margin: auto;
+}
+
+#button1{
+    display:flex;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#button2{
+    width: 600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#button1:hover{
+    background-color: grey;
+    color: white;
+}
+#button2:hover{
+    background-color: grey;
+    color: rgb(253, 246, 246);
+}
+#totalrupeesinwords{
+    width: 400px;
+}
+#totalrupeesinwords{ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid rgb(253, 9, 9);
+   border-radius: 5px;
+   width: 650px;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 30px;
+   height: 30px;
+}
+@media screen and (max-width: 360px){
+body{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+    #navbar{
+        margin: auto;
+        height: 25px;
+        font-size: 10px;
+        width: 335px;
+    }
+    .note{
+        margin-left: -3px;
+        width: 100px;
+        height: 50px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        
+    }
+    .mult{
+        margin-bottom: 44px;
+        height: 15px;
+        margin-right: 6px;
+        margin-left: 2px;
+        margin-top: 3px;
+        width: 10px;
+        margin-bottom: 17px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #form1{
+        margin: 0px;
+    }
+    #form2{
+        margin: 0px;
+    }
+    #form3{
+        margin: 0px;
+    }
+    #form4{
+        margin: 0px;
+    }
+    #form5{
+        margin: 0px;
+    }
+    #form6{
+        margin: 0px;
+    }
+    #form7{
+        margin: 0px;
+    }
+    #firstnote{
+        width: 38px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    #secondnote{
+        width: 38px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    #thirdnote{
+        width: 38px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    #fourthnote{
+        width: 38px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    #fifthnote{
+        width: 38px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    #sixthnote{
+        width: 38px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    #seventhnote{
+        width: 38px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    .para{
+        font-size: 15px;
+        margin: 2px;
+    }
+    #twothousandnote{
+        height: 10px;
+        margin-right: 64px;
+        width: 53px;
+    }
+    #fivehundrednote{
+        height: 10px;
+        margin-right: 64px;
+        width: 53px;
+    }
+    #twohundrednote{
+        height: 10px;
+        margin-right: 64px;
+        width: 53px;
+    }
+    #hundrednote{
+        height: 10px;
+        margin-right: 64px;
+        width: 53px;
+    }
+    #fiftynote{
+        height: 10px;
+        margin-right: 64px;
+        width: 53px;
+    }
+    #twentynote{
+        height: 10px;
+        margin-right: 64px;
+        width: 53px;
+    }
+    #tennote{
+        height: 10px;
+        margin-right: 64px;
+        width: 53px;
+    }
+    #button1{
+        width: 150px;
+        margin-right: 108px;
+        height: 30px;
+    }
+    #button2{
+        width: 150px;
+        margin-right: 108px;
+        height: 30px;
+    }
+    #totalrs{
+        display: inline;
+    width: 75px;
+    margin-right: 123px;
+    margin-left: 0px;
+    font-size: 15px;
+    margin-top: 0px;
+    
+    }
+    #totalnotes{
+        width: 50px;
+        margin-right: 121px;
+        margin-left: 0px;
+        
+    
+    }
+    #span1{
+        margin-top: 29px;
+        display: inline-block;
+        font-size: 15px;
+        margin-left: 81px;
+        margin-right: 2px;
+      
+    }
+    #span2{
+        font-size: 15px;
+        margin-left: 79px;
+    }
+    #totalrupeesinwords{
+        width: 200px;
+        font-size: 15px;
+        height: 46px;
+        margin-right: 51px;
+        margin-bottom: 5px;
+        padding: 20px;
+    }
+
+
+}
+@media screen and (min-width:375px) and (max-width: 416px)
+ {
+    body {
+      background-color: lightgreen;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    
+    }
+    #navbar{
+        margin: auto;
+        height: 25px;
+        font-size: 10px;
+        width: 335px;
+    }
+    .note{
+        margin-left: -20px;
+        width: 100px;
+        height: 50px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        
+    }
+    .mult{
+        margin-bottom: 44px;
+        height: 15px;
+        margin-right: 6px;
+        margin-left: 2px;
+        margin-top: 3px;
+        width: 10px;
+        margin-bottom: 17px;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #form1{
+        margin: 0px;
+    }
+    #form2{
+        margin: 0px;
+    }
+    #form3{
+        margin: 0px;
+    }
+    #form4{
+        margin: 0px;
+    }
+    #form5{
+        margin: 0px;
+    }
+    #form6{
+        margin: 0px;
+    }
+    #form7{
+        margin: 0px;
+    }
+    #firstnote{
+        width: 30px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    #secondnote{
+        width: 30px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    #thirdnote{
+        width: 30px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    #fourthnote{
+        width: 30px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    #fifthnote{
+        width: 30px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    #sixthnote{
+        width: 30px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    #seventhnote{
+        width: 30px;
+        margin-right:0px;
+        margin-top: 23px;
+        height: 10px;
+    }
+    .para{
+        font-size: 15px;
+        margin: 2px;
+    }
+    #twothousandnote{
+        height: 10px;
+        margin-right: 65px;
+        width: 68px;
+    }
+    #fivehundrednote{
+        height: 10px;
+        margin-right: 65px;
+        width: 68px;
+    }
+    #twohundrednote{
+        height: 10px;
+        margin-right: 65px;
+        width: 68px;
+    }
+    #hundrednote{
+        height: 10px;
+        margin-right: 65px;
+        width: 68px;
+    }
+    #fiftynote{
+        height: 10px;
+        margin-right: 65px;
+        width: 68px;
+    }
+    #twentynote{
+        height: 10px;
+        margin-right: 65px;
+        width: 68px;
+    }
+    #tennote{
+        height: 10px;
+        margin-right: 65px;
+        width: 68px;
+    }
+    #button1{
+        width: 150px;
+        margin-right: 136px;
+        height: 30px;
+    }
+    #button2{
+        width: 150px;
+        margin-right: 137px;
+        height: 30px;
+    }
+    #totalrs{
+        display: inline;
+        width: 75px;
+        margin-right: 110px;
+        margin-left: 0px;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    
+    
+    #totalnotes{
+        width: 50px;
+        margin-right: 134px;
+        margin-left: 0px;
+        
+    
+    }
+    #span1{
+        margin-top: 29px;
+        display: inline-block;
+        font-size: 15px;
+        margin-left: 97px;
+        margin-right: 2px;
+      
+    }
+    #span2{
+        font-size: 15px;
+        margin-left: 87px;
+    }
+    #totalrupeesinwords{
+        width: 200px;
+        padding: 20px;
+        font-size: 15px;
+        height: 46px;
+        margin-right: 81px;
+        margin-bottom: 5px;
+    }
+}
+
+  
+  @media screen and (min-width:417px) and (max-width: 930px) {
+    body {
+      background-color: lightyellow;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    
+     
+    
+    }
+    #navbar{
+        margin: auto;
+        height: 45px;
+        font-size: 15px;
+        width: 500px;
+    }
+    .note{
+        margin-left: -22px;
+        width: 200px;
+        height: 100px;
+        margin-top: 30px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        
+    }
+    .mult{
+        margin-bottom: 44px;
+        height: 35px;
+        margin-right: 6px;
+        margin-left: 4px;
+        margin-top: 3px;
+        width: 25px;
+        margin-bottom: 20px;
+    }
+    #form1{
+        margin: 0px;
+    }
+    #form2{
+        margin: 0px;
+    }
+    #form3{
+        margin: 0px;
+    }
+    #form4{
+        margin: 0px;
+    }
+    #form5{
+        margin: 0px;
+    }
+    #form6{
+        margin: 0px;
+    }
+    #form7{
+        margin: 0px;
+    }
+    #firstnote{
+        margin-left: 4px;
+        margin-right:0px;
+        margin-top: 84px;
+    }
+    #secondnote{
+        margin-left: 4px;
+        margin-right:0px;
+        margin-top: 84px;
+    }
+    #thirdnote{
+        margin-left: 4px;
+        margin-right:0px;
+        margin-top: 84px;
+    }
+    #fourthnote{
+        margin-left: 4px;
+        margin-right:0px;
+        margin-top: 84px;
+    }
+    #fifthnote{
+        margin-left: 4px;
+        margin-right:0px;
+        margin-top: 84px;
+    }
+    #sixthnote{
+        margin-left: 4px;
+        margin-right:0px;
+        margin-top: 84px;
+    }
+    #seventhnote{
+        margin-left: 4px;
+        margin-right:0px;
+        margin-top: 84px;
+    }
+}

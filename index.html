@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    
+    <title>Cash Counter-By Shreyas Raut</title>
+</head>
+<body>
+    <nav id="navbar">
+        <h1>Cash Counter</h1>
+    </nav>
+    <div class="container">
+        <ul>
+            <li >
+                <img class="note"  src="/images/1.jpg" alt="2000">
+                <img class="mult"  src="/images/mult.png" alt="multiplication">
+                <form action="#" id="form1">
+                   <input type="number" id="firstnote" value="0" min="0" class="inputbox"><p class="para">=</p><input id="twothousandnote" type="number" class="outputbox" value="0">
+                </form>
+
+
+            </li>
+            <li>
+                <img class="note"   src="/images/2.jpeg" alt="2000">
+                <img class="mult"src="/images/mult.png" alt="multiplication">
+                <form action="#" id="form2">
+                   <input type="number" id="secondnote" value="0" min="0" class="inputbox"><p class="para">=</p><input type="number" id="fivehundrednote" class="outputbox" value="0">
+                </form>
+
+            </li>
+            <li>
+                <img class="note"   src="/images/3.jpg" alt="2000">
+                <img class="mult"src="/images/mult.png" alt="multiplication">
+                <form action="#" id="form3">
+                   <input type="number" id="thirdnote" value="0" min="0" class="inputbox" ><p class="para">=</p><input type="number" id="twohundrednote" class="outputbox" value="0">
+                </form>
+ 
+            </li>
+            <li>
+                <img class="note"   src="/images/4.jpg" alt="2000">
+                <img class="mult" src="/images/mult.png" alt="multiplication">
+                <form action="#" id="form4">
+                   <input type="number" id="fourthnote" value="0" min="0" class="inputbox"><p class="para">=</p><input type="number" id="hundrednote" class="outputbox" value="0">
+                </form>
+
+            </li>
+            <li>
+                <img class="note"   src="/images/5.jpg" alt="2000">
+                <img class="mult"src="/images/mult.png" alt="multiplication">
+                <form action="#" id="form5">
+                   <input type="number" id="fifthnote" value="0" min="0" class="inputbox"><p class="para">=</p><input type="number" id="fiftynote" class="outputbox" value="0">
+                </form>
+
+            </li>
+            <li>
+                <img class="note" src="/images/6.jpg" alt="2000">
+                <img class="mult" src="/images/mult.png" alt="multiplication">
+                <form action="#" id="form6">
+                   <input type="number" id="sixthnote" value="0" min="0" class="inputbox"><p class="para">=</p><input type="number" id="twentynote" class="outputbox" value="0">
+                </form>
+
+            </li>
+            <li>
+                <img class="note"  src="/images/7.jpg" alt="2000">
+                <img class="mult" src="/images/mult.png" alt="multiplication">
+                <form action="#" id="form7">
+                   <input type="text" id="seventhnote" value="0" min="0" class="inputbox"><p class="para">=</p><input type="text" id="tennote" class="outputbox" value="0">
+                </form>
+
+            </li>
+        </ul>
+    </div>
+    <button id="button1" onclick="multiply()">Calculate</button><br>
+    <button id="button2" onclick="Reset()">Clear</button>
+    <footer class="footer">
+        <form action="#">
+            <span id="span1">Total Rs:</span><input type="text" name="totalrs" value="0" id="totalrs">
+            <span id="span2"> Total notes:</span>   
+            <input type="text" name="totalnotes" value="0" id="totalnotes">
+            <!-- Total Rupees in words:
+            <input type="text" name="totalrupeesinwords" id="totalrupeesinwords"> -->
+        </form>
+    </footer>
+    <p id="totalrupeesinwords">Total Rupees in words</p>
+    <script src="/script.js"></script>
+</body>
+</html>

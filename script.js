@@ -93,7 +93,7 @@ updatetotalrs.forEach((element) => {
 //     console.log(element);
 // }
 function startgreet() {
-  let audio = new Audio("/startgreet.mp3");
+  let audio = new Audio("startgreet.mp3");
   audio.play();
 }
 setTimeout(startgreet, 5000);
